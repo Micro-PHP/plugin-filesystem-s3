@@ -1,0 +1,19 @@
+{
+    "name": "micro/plugin-filesystem-s3",
+    "description": "MIT",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1",
+    "autoload": {
+        "psr-4": {
+            "Micro\\Plugin\\Filesystem\\Adapter\\Aws\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislau Komar",
+            "email": "stanislau_komar@epam.com"
+        }
+    ],
+    "require": {}
+}
