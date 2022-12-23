@@ -15,5 +15,9 @@
             "email": "stanislau_komar@epam.com"
         }
     ],
-    "require": {}
+    "require": {
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "aws/aws-sdk-php": "^3",
+        "micro/plugin-filesystem": "^1"
+    }
 }

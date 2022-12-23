@@ -3,6 +3,7 @@
 namespace Micro\Plugin\Filesystem\Adapter\Aws;
 
 use Micro\Component\DependencyInjection\Container;
+use Micro\Framework\Kernel\KernelInterface;
 use Micro\Framework\Kernel\Plugin\AbstractPlugin;
 use Micro\Plugin\Filesystem\Adapter\Aws\Business\Adapter\AdapterFactory;
 use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
@@ -11,6 +12,7 @@ use Micro\Plugin\Filesystem\Business\Adapter\AdapterFactoryInterface;
 use Micro\Plugin\Filesystem\Business\FS\FsFactory;
 use Micro\Plugin\Filesystem\Business\FS\FsFactoryInterface;
 use Micro\Plugin\Filesystem\Facade\FilesystemFacadeInterface;
+use Micro\Plugin\Twig\Plugin\TwigExtensionPluginInterface;
 
 /**
  * @method FilesystemS3AdapterPluginConfigurationInterface configuration()
