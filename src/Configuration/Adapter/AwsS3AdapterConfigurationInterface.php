@@ -1,5 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
+/*
+ *  This file is part of the Micro framework package.
+ *
+ *  (c) Stanislau Komar <kost@micro-php.net>
+ *
+ *  For the full copyright and license information, please view the LICENSE
+ *  file that was distributed with this source code.
+ */
+
 namespace Micro\Plugin\Filesystem\Adapter\Aws\Configuration\Adapter;
 
 use Micro\Plugin\Filesystem\Configuration\Adapter\FilesystemAdapterConfigurationInterface;
@@ -27,16 +38,6 @@ interface AwsS3AdapterConfigurationInterface extends FilesystemAdapterConfigurat
     public function getBucket(): string;
 
     /**
-     * @return string|null
-     */
-    public function getService(): null|string;
-
-    /**
-     * @return string
-     */
-    public function getProfile(): string;
-
-    /**
      * @return string
      */
     public function getRegion(): string;
@@ -57,7 +58,7 @@ interface AwsS3AdapterConfigurationInterface extends FilesystemAdapterConfigurat
     public function getSignatureVersion(): string;
 
     /**
-     * @return array
+     * @return array<string, string>
      */
     public function getUserAgentParameters(): array;
 
@@ -69,22 +70,17 @@ interface AwsS3AdapterConfigurationInterface extends FilesystemAdapterConfigurat
     /**
      * @return bool
      */
-    public function isValidate(): bool;
-
-    /**
-     * @return bool
-     */
     public function getValidatorOptionRequired(): bool;
 
     /**
-     * @return int|null
+     * @return int
      */
-    public function getValidatorOptionMin(): null|int;
+    public function getValidatorOptionMin(): int;
 
     /**
-     * @return int|null
+     * @return int
      */
-    public function getValidatorOptionMax(): null|int;
+    public function getValidatorOptionMax(): int;
 
     /**
      * @return string|null
@@ -95,6 +91,4 @@ interface AwsS3AdapterConfigurationInterface extends FilesystemAdapterConfigurat
      * @return string
      */
     public function getVersion(): string;
-
-
 }
