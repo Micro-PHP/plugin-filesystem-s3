@@ -11,10 +11,10 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws\Decorator;
+namespace Micro\Plugin\FilesystemAdapter\Aws\Decorator;
 
 use League\Flysystem\FilesystemOperator;
-use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
+use Micro\Plugin\FilesystemAdapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
 use Micro\Plugin\Filesystem\Business\FS\FsFactoryInterface;
 use Micro\Plugin\Filesystem\Configuration\FilesystemPluginConfigurationInterface;
 use Micro\Plugin\Filesystem\Facade\FilesystemFacadeInterface;

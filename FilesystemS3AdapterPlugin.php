@@ -11,16 +11,16 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws;
+namespace Micro\Plugin\FilesystemAdapter\Aws;
 
-use Micro\Component\DependencyInjection\Container;
-use Micro\Framework\Kernel\Plugin\ConfigurableInterface;
-use Micro\Framework\Kernel\Plugin\DependencyProviderInterface;
-use Micro\Framework\Kernel\Plugin\PluginConfigurationTrait;
-use Micro\Framework\Kernel\Plugin\PluginDependedInterface;
-use Micro\Plugin\Filesystem\Adapter\Aws\Business\Adapter\AdapterFactory;
-use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
-use Micro\Plugin\Filesystem\Adapter\Aws\Decorator\AwsFilesystemFacadeDecorator;
+use Micro\Framework\DependencyInjection\Container;
+use Micro\Framework\BootConfiguration\Plugin\ConfigurableInterface;
+use Micro\Framework\BootDependency\Plugin\DependencyProviderInterface;
+use Micro\Framework\BootConfiguration\Plugin\PluginConfigurationTrait;
+use Micro\Framework\BootPluginDependent\Plugin\PluginDependedInterface;
+use Micro\Plugin\FilesystemAdapter\Aws\Business\Adapter\AdapterFactory;
+use Micro\Plugin\FilesystemAdapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
+use Micro\Plugin\FilesystemAdapter\Aws\Decorator\AwsFilesystemFacadeDecorator;
 use Micro\Plugin\Filesystem\Business\Adapter\AdapterFactoryInterface;
 use Micro\Plugin\Filesystem\Business\FS\FsFactory;
 use Micro\Plugin\Filesystem\Business\FS\FsFactoryInterface;

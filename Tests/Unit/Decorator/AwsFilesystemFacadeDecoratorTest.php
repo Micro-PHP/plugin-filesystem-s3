@@ -11,10 +11,10 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws\Test\Unit\Decorator;
+namespace Micro\Plugin\FilesystemAdapter\Aws\Tests\Unit\Decorator;
 
-use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
-use Micro\Plugin\Filesystem\Adapter\Aws\Decorator\AwsFilesystemFacadeDecorator;
+use Micro\Plugin\FilesystemAdapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
+use Micro\Plugin\FilesystemAdapter\Aws\Decorator\AwsFilesystemFacadeDecorator;
 use Micro\Plugin\Filesystem\Business\FS\FsFactoryInterface;
 use Micro\Plugin\Filesystem\Facade\FilesystemFacadeInterface;
 use PHPUnit\Framework\TestCase;

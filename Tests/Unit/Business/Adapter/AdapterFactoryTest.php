@@ -11,9 +11,9 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws\Test\Unit\Business\Adapter;
+namespace Micro\Plugin\FilesystemAdapter\Aws\Tests\Unit\Business\Adapter;
 
-use Micro\Plugin\Filesystem\Adapter\Aws\Business\Adapter\AdapterFactory;
+use Micro\Plugin\FilesystemAdapter\Aws\Business\Adapter\AdapterFactory;
 use Micro\Plugin\Filesystem\Configuration\Adapter\FilesystemAdapterConfigurationInterface;
 use PHPUnit\Framework\TestCase;
 

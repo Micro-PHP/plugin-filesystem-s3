@@ -11,10 +11,10 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws;
+namespace Micro\Plugin\FilesystemAdapter\Aws;
 
-use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\Adapter\AwsS3AdapterConfiguration;
-use Micro\Plugin\Filesystem\Adapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
+use Micro\Plugin\FilesystemAdapter\Aws\Configuration\Adapter\AwsS3AdapterConfiguration;
+use Micro\Plugin\FilesystemAdapter\Aws\Configuration\FilesystemS3AdapterPluginConfigurationInterface;
 use Micro\Plugin\Filesystem\Configuration\Adapter\FilesystemAdapterConfigurationInterface;
 use Micro\Plugin\Filesystem\FilesystemPluginConfiguration;
 

@@ -11,11 +11,11 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Filesystem\Adapter\Aws\Test\Unit;
+namespace Micro\Plugin\FilesystemAdapter\Aws\Tests\Unit;
 
 use League\Flysystem\FilesystemOperator;
-use Micro\Kernel\App\AppKernel;
-use Micro\Plugin\Filesystem\Adapter\Aws\FilesystemS3AdapterPlugin;
+use Micro\Framework\KernelApp\AppKernel;
+use Micro\Plugin\FilesystemAdapter\Aws\FilesystemS3AdapterPlugin;
 use Micro\Plugin\Filesystem\Facade\FilesystemFacadeInterface;
 use PHPUnit\Framework\TestCase;
 
